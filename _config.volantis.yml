@@ -327,8 +327,8 @@ comments:
     lang: "zh-CN"
     # 以上配置按照 yml 格式增删填写即可
     theme:
-      light: "light" # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
-      dark: "dark" # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
+      light: "light" 
+      dark: "dark" 
 
   # beaudar
   # https://beaudar.lipk.org/
@@ -389,6 +389,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
+      # 头像
       avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg 
       # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
       shape: circle # circle, rectangle
@@ -561,29 +562,28 @@ site_footer:
 
 ############################### Plugins ############################### > start
 plugins:
+  
   ################ required plugins ################
   # jquery
   globalJquery: false # 全局引入 jquery
-  jquery: volantis-static/libs/jquery/dist/jquery.min.js # https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
+  jquery: volantis-static/libs/jquery/dist/jquery.min.js 
   # fontawesome Pro 版本：https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
-  fontawesome: volantis-static/libs/@fortawesome/fontawesome-free/css/all.min.css # https://unpkg.com/@fortawesome/fontawesome-free@6.1/css/all.min.css
+  fontawesome: volantis-static/libs/@fortawesome/fontawesome-free/css/all.min.css 
   # katex@0.15.2
   katex:
-    js: volantis-static/libs/katex/katex.min.js # https://unpkg.com/katex@0.15.2/dist/katex.min.js
-    css: volantis-static/libs/katex/katex.min.css # https://unpkg.com/katex@0.15.2/dist/katex.min.css
-    render: volantis-static/libs/katex/contrib/auto-render.min.js # https://unpkg.com/katex@0.15.2/dist/contrib/auto-render.min.js
+    js: volantis-static/libs/katex/katex.min.js 
+    css: volantis-static/libs/katex/katex.min.css 
+    render: volantis-static/libs/katex/contrib/auto-render.min.js 
   # mathjax@3.2.0
-  mathjax: volantis-static/libs/mathjax/es5/tex-mml-chtml.js # https://unpkg.com/mathjax@3.2.0/es5/tex-mml-chtml.js
+  mathjax: volantis-static/libs/mathjax/es5/tex-mml-chtml.js 
   # github-markdown-css@5.1.0
-  markdown: volantis-static/libs/github-markdown-css/github-markdown.css # https://unpkg.com/github-markdown-css@5.1.0/github-markdown.min.css
+  markdown: volantis-static/libs/github-markdown-css/github-markdown.css 
   # marked@4.0.10
-  marked: volantis-static/libs/marked/marked.min.js # https://unpkg.com/marked@4.0.10/marked.min.js
-  # hls.js@1.1.3
-  hlsjs: volantis-static/libs/hls.js/dist/hls.min.js # https://unpkg.com/hls.js@1.1.3
-  # @fancyapps/ui@4.0.12
+  marked: volantis-static/libs/marked/marked.min.js 
+  hlsjs: volantis-static/libs/hls.js/dist/hls.min.js 
   fancybox:
-    css: volantis-static/libs/@fancyapps/ui/dist/fancybox.css # https://unpkg.com/@fancyapps/ui@4.0.12/dist/fancybox.css
-    js: volantis-static/libs/@fancyapps/ui/dist/fancybox.umd.js # https://unpkg.com/@fancyapps/ui@4.0.12/dist/fancybox.umd.js
+    css: volantis-static/libs/@fancyapps/ui/dist/fancybox.css 
+    js: volantis-static/libs/@fancyapps/ui/dist/fancybox.umd.js 
   ################ optional plugins ################
   # issues api
   sitesjs:
@@ -591,15 +591,15 @@ plugins:
   friendsjs:
     enable: true
   contributorsjs:
-    enable: true
+    enable: true       
 
   ######## Plugins to improve loading speed:
   # 预加载
   preload:
     enable: true
     service: flying_pages # instant_page, flying_pages
-    instant_page: volantis-static/libs/instant_page/instant_page.js # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js
-    flying_pages: volantis-static/libs/flying-pages/flying-pages.min.js # https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js
+    instant_page: volantis-static/libs/instant_page/instant_page.js
+    flying_pages: volantis-static/libs/flying-pages/flying-pages.min.js
 
   # 图片懒加载
   # https://www.npmjs.com/package/vanilla-lazyload
@@ -608,7 +608,7 @@ plugins:
   # 在支持 srcset 的浏览器或者 RSS 阅读器(还会有人使用老旧的阅读器?)上会优先读取 srcset 加载的图片(懒加载占位图), 对于 RSS 中图片丢失变成懒加载占位图的问题, 建议 自行使用脚本移除 srcset 属性 或 关闭图片懒加载 或 在 RSS 中插入 vanilla-lazyload
   lazyload:
     enable: true
-    js: volantis-static/libs/vanilla-lazyload/dist/lazyload.min.js # https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js
+    js: volantis-static/libs/vanilla-lazyload/dist/lazyload.min.js 
     onlypost: false
     loadingImg: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg # 不建议使用占位图, 建议loadingImg为空, 当前占位图会产生布局偏移, loadingImg 为空占位图是一个 1X1 像素的图片
     blurIn: true # 模糊加载效果 （loadingImg为空时有效）
@@ -642,7 +642,7 @@ plugins:
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
     enable: true
-    js: volantis-static/libs/scrollreveal/dist/scrollreveal.min.js # https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js
+    js: volantis-static/libs/scrollreveal/dist/scrollreveal.min.js
     distance: 32px
     duration: 800 # ms
     interval: 20 # ms
@@ -657,28 +657,29 @@ plugins:
   # Button Ripple Effect
   nodewaves:
     enable: #true
-    css: volantis-static/libs/node-waves/dist/waves.min.css # https://unpkg.com/node-waves@0.7.6/dist/waves.min.css
-    js: volantis-static/libs/node-waves/dist/waves.min.js # https://unpkg.com/node-waves@0.7.6/dist/waves.min.js
+    css: volantis-static/libs/node-waves/dist/waves.min.css 
+    js: volantis-static/libs/node-waves/dist/waves.min.js 
 
   # fontawesome V6:  https://fontawesome.com/docs/web/style/animate
   # fontawesome animation for fontawesome V5
   fontawesome_animation:
     enable: #true
-    css: volantis-static/libs/font-awesome-animation/font-awesome-animation.min.css # https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css
+    css: volantis-static/libs/font-awesome-animation/font-awesome-animation.min.css 
 
   # Typing Effects
   comment_typing:
     enable: #true
-    js: volantis-static/libs/comment_typing/comment_typing.js # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js
+    js: volantis-static/libs/comment_typing/comment_typing.js 
 
   # 视差滚动效果 Slide Background
   parallax:
-    enable: #true
+    enable: true # 改为true的话，主页头部的背景图会随机该变；为空的话会默认图片
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
-    images:               # For personal use only. At your own risk if used for commercial purposes !!!
+    images: # For personal use only. At your own risk if used for commercial purposes !!!
+      - https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/bg.jpg
       - volantis-static/media/wallpaper/minimalist/2020/001.webp
       - volantis-static/media/wallpaper/minimalist/2020/002.webp
       - volantis-static/media/wallpaper/minimalist/2020/003.webp
@@ -726,13 +727,13 @@ plugins:
 
   # Pjax
   pjax:
-    js: volantis-static/libs/pjax/pjax.min.js # https://unpkg.com/pjax@0.2.8/pjax.min.js
+    js: volantis-static/libs/pjax/pjax.min.js 
     enable: true
     cover: true          # 封面是否pjax处理 false：每次切换页面封面都重载，适合封面较少的情况 true：封面经过Pjax处理，适合封面较多的情况
     timeout: 5000        # The timeout in milliseconds for the XHR requests. Set to 0 to disable the timeout.
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
     animation: false # false, nprogress, circle
-    nprogress: volantis-static/libs/nprogress/nprogress.js # https://unpkg.com/nprogress@0.2.0/nprogress.min.js
+    nprogress: volantis-static/libs/nprogress/nprogress.js 
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
       # - '/artitalk/'   # artitalk 不支持 pjax
       # - '/bbtalk/'     # bbtalk 不支持 pjax
@@ -742,8 +743,8 @@ plugins:
   # - name: 暗黑模式 # 可自定义
   #   icon: fa-solid fa-moon # 可自定义
   #   toggle: darkmode
-  darkmode:
-    enable: #true
+  darkmode: # 开启暗夜模式
+    enable: true
 
   # 旧版 Internet Explorer 淘汰行动
   # https://www.microsoft.com/zh-cn/WindowsForBusiness/End-of-IE-support
@@ -849,8 +850,8 @@ plugins:
   # https://www.swiper.com.cn/
   swiper:
     enable: true
-    css: volantis-static/libs/swiper/swiper-bundle.min.css # https://unpkg.com/swiper@6/swiper-bundle.min.css
-    js: volantis-static/libs/swiper/swiper-bundle.min.js # https://unpkg.com/swiper@6/swiper-bundle.min.js
+    css: volantis-static/libs/swiper/swiper-bundle.min.css 
+    js: volantis-static/libs/swiper/swiper-bundle.min.js 
 
 ############################### Plugins ############################### > end
 
@@ -899,6 +900,8 @@ rightmenus:
     musicAlwaysShow: true
   # 右键内置组，预置实现
   plugins:
+   
+
     # 导航组件
     # 横向排列，共用一行，仅显示图标 (原则上支持的数量不限)
     navigation:
@@ -986,7 +989,7 @@ rightmenu:
   source_docs:
     name: 本站源码
     icon: fa fa-code-branch
-    url: https://github.com/volantis-x/volantis-docs/
+    url: https://github.com/txw1314/valinilla.git
   source_theme:
     name: 主题源码
     icon: fa fa-code-branch
