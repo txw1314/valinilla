@@ -113,7 +113,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+  background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/20.jpg
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'VanillaYiYi'
@@ -122,23 +122,23 @@ cover:
   features:
     - name: 博客
       icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f5c3.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      img: volantis-static/media/twemoji/assets/svg/1f5c3.svg
       url: /
     - name: 归档
       icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
+      img: volantis-static/media/twemoji/assets/svg/1f389.svg
       url: /archives/
     - name: 分类
       icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
+      img: volantis-static/media/twemoji/assets/svg/1f516.svg
       url: categories/
     - name: 标签
       icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
+      img: volantis-static/media/twemoji/assets/svg/1f396.svg 
       url: /tags/
     - name: 源码
       icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
+      img: volantis-static/media/twemoji/assets/svg/1f9ec.svg 
       url: https://github.com/volantis-x/hexo-theme-volantis/
 ############################### Cover ############################### > end
 
@@ -245,8 +245,8 @@ article:
       donate:
         enable: false
         images:
-          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png 
+          - volantis-static/media/org.volantis/blog/qrcode/github@volantis.png
     # meta library
     meta_library:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
@@ -307,30 +307,7 @@ comments:
   title: <i class='fa-solid fa-comments'></i> 评论
   subtitle:
   service: giscus
-  # 可选评论系统 #
-
-  # artalk
-  # https://artalk.js.org/
-  # https://github.com/ArtalkJS/Artalk
-  artalk:
-    js: https://yours-artalk-domain/dist/Artalk.js   # or https://unpkg.com/artalk@2.2.8/dist/Artalk.js
-    css: https://yours-artalk-domain/dist/Artalk.css # or https://unpkg.com/artalk@2.2.8/dist/Artalk.css
-    server: https://yours-artalk-domain    # 修改为自建的后端服务地址
-    path:  # 全局评论地址
-    placeholder: # 评论占位
-    # artalk 有三类图片：1.上传至服务端 2.上传至服务端后利用upgit上传至图床 3.前端上传至图床（本配置为此类）
-    # 配置此项时将覆盖服务端上传能力
-    imageUploader:
-      # 以兰空图床为例，下列填写内容为：
-      # url: 'https://xxxxxx/api/v1/upload'
-      # token: 'Bearer xxxxxxxxxxxxxx'
-      # resp: 'data.links.url'
-      api: # 图床地址
-      token: # 图床验证
-      resp: # 图片地址返回值的字段
-    # 更多置项可在 Artalk 后端进行配置，详见 https://artalk.js.org/guide/backend/fe-control.html
-    # 也可以在此处继续参考上方例子进行配置，不建议重写配置的字段除上方所述外还有：
-    # [el, useBackendConf, pageKey, pageTitle, site, darkMode, pvEl, imgUploader]
+  # 可选评论系统 # twikoo
 
   # giscus
   # https://giscus.app
@@ -367,38 +344,6 @@ comments:
       dark: github-dark
     label: ✨💬✨
 
-  # utterances
-  # https://utteranc.es/
-  utterances:
-    repo: xxx/xxx
-    issue-term: pathname
-    issue-number:
-    theme:
-      light: github-light
-      dark: github-dark
-    label: ✨💬✨
-
-  # Disqus
-  # https://disqus.com
-  disqus:
-    shortname:
-    # optional
-    autoload: false
-    path: # 全局评论地址
-
-  # DisqusJS
-  # https://github.com/SukkaW/DisqusJS
-  disqusjs:
-    path: # 全局评论地址
-    js: https://unpkg.com/disqusjs@1.3/dist/disqus.js
-    css: https://unpkg.com/disqusjs@1.3/dist/disqusjs.css
-    # 配置项按照yml格式继续填写即可 除了 [siteName url identifier] 选项
-    #shortname:
-    #api:
-    #apikey:
-    #admin:
-    #nesting:
-
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
@@ -411,35 +356,6 @@ comments:
     admin: # []
     path: # 全局评论地址
 
-  # Vssue 暂不支持Pjax
-  # https://vssue.js.org/zh/
-  vssue:
-    js: https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.4/packages/vssue/dist/vssue.github.min.js
-    css: https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.4/packages/vssue/dist/vssue.min.css
-    vue: https://cdn.jsdelivr.net/gh/vuejs/vue@2.6.11/dist/vue.runtime.min.js
-    owner:
-    repo:
-    clientId:
-    clientSecret:
-
-  # LiveRe 暂不支持Pjax
-  # https://www.livere.com
-  livere:
-    uid:
-
-  # Isso
-  # https://posativ.org/isso/
-  isso:
-    url: https://example.com/(path/)
-    src: https://example.com/(path/)js/embed.min.js
-    css:
-    gravatar:
-
-  # HashOver 暂不支持Pjax
-  # https://www.barkdull.org/software/hashover
-  hashover:
-    src: https://example.com/(path/)comments.php
-
   # Twikoo
   # https://twikoo.js.org/
   twikoo:
@@ -448,28 +364,6 @@ comments:
     # 其他配置项按照yml格式继续填写即可 除了 [el path] 选项
     envId: xxxxxxxxxxxxxxx # 腾讯云环境id
     placeholder: #全局评论占位，也可以在管理面板中的配置管理处设置（此处优先级更高）
-
-  # Waline
-  # https://waline.js.org/
-  waline:
-    js: https://unpkg.com/@waline/client@v2/dist/waline.js
-    css: https://unpkg.com/@waline/client@v2/dist/waline.css
-    path: # 全局评论地址 目前设置全局评论地址后visitor失效,这是waline的问题
-    placeholder: # 评论占位提示
-    serverURL: # Waline 的服务端地址（必填） 测试用地址: https://waline.vercel.app
-    imageUploader:
-      # 以兰空图床为例，下列填写内容为：
-      # url: https://xxxxxx/api/v1/upload
-      # token: Bearer xxxxxxxxxxxxxx
-      # resp: data.links.url
-      api:   # 图床地址
-      token: # 图床验证
-      resp:  # 图片地址返回值的字段
-    pageview: true # 浏览量统计
-    comment: true  # 评论数统计
-    # 其他配置项按照yml格式继续填写即可 除了 [el path imageUploader] 选项
-    # 组件属性地址：https://waline.js.org/reference/component.html
-    # meta: ['nick', 'mail', 'link']
 
   # Discuss
   # https://discuss.js.org
@@ -635,7 +529,7 @@ tag_plugins:
     color: '' # color for default checkbox
   # {% link title, url, img %}
   link:
-    placeholder:  volantis-static/media/org.volantis/logo/256/safari.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/256/safari.png
+    placeholder:  volantis-static/media/org.volantis/logo/256/safari.png 
 ############################### Tag Plugins ############################### > end
 
 
@@ -645,7 +539,7 @@ site_footer:
   # 我不想footer携带analytics，就把这个暂时删掉了
   layout: [aplayer, social,  license, info, copyright]
   social:
-    - icon: #fa-solid fa-rss
+    - icon: # fa-solid fa-rss
       url:
     # or
     - img:
@@ -812,9 +706,9 @@ plugins:
   aplayer:
     enable: true
     js:
-      aplayer: volantis-static/libs/aplayer/dist/APlayer.min.js # https://unpkg.com/aplayer@1.10/dist/APlayer.min.js
-      meting: volantis-static/libs/meting/dist/Meting.min.js # https://unpkg.com/meting@2.0/dist/Meting.min.js
-    css: volantis-static/libs/aplayer/dist/APlayer.min.css # https://unpkg.com/aplayer@1.10/dist/APlayer.min.css
+      aplayer: volantis-static/libs/aplayer/dist/APlayer.min.js 
+      meting: volantis-static/libs/meting/dist/Meting.min.js 
+    css: volantis-static/libs/aplayer/dist/APlayer.min.css 
     # Required
     server: netease   # netease, tencent, kugou, xiami, baidu
     type: playlist    # song, playlist, album, search, artist
@@ -1221,13 +1115,13 @@ color_scheme:
 custom_css:
   cursor:
     enable: #true
-    text: volantis-static/media/cursor/text.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
-    pointer: volantis-static/media/cursor/pointer.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
-    default: volantis-static/media/cursor/left_ptr.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
-    not-allowed: volantis-static/media/cursor/circle.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/circle.png
-    zoom-out: volantis-static/media/cursor/zoom-out.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
-    zoom-in: volantis-static/media/cursor/zoom-in.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
-    grab: volantis-static/media/cursor/openhand.png # https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
+    text: volantis-static/media/cursor/text.png 
+    pointer: volantis-static/media/cursor/pointer.png 
+    default: volantis-static/media/cursor/left_ptr.png 
+    not-allowed: volantis-static/media/cursor/circle.png 
+    zoom-out: volantis-static/media/cursor/zoom-out.png 
+    zoom-in: volantis-static/media/cursor/zoom-in.png 
+    grab: volantis-static/media/cursor/openhand.png 
   font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   scrollbar:
@@ -1236,11 +1130,11 @@ custom_css:
   navbar:
     height: 64px
     width: auto # auto, max
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
+    effect: [ floatable] # [shadow, floatable, blur]
   sidebar:
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
+    effect: [ floatable] # [shadow, floatable, blur]
   body:
-    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
+    effect: [ floatable] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       grayscale: false # Enable grayscale effect
@@ -1275,23 +1169,35 @@ custom_css:
     footnote: .78125rem
   fontfamily:
     logofont:
-      fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      name: 'Varela Round'
-      url: volantis-static/media/fonts/VarelaRound/VarelaRound-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
-      weight: normal
-      style: normal
+      fontfamily: 'MaShanZheng, Roboto, Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      url: ''
     bodyfont:
-      fontfamily: 'UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      name: 'UbuntuMono'
-      url: volantis-static/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
-      weight: normal
-      style: normal
+      fontfamily: '"Noto Serif SC", Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      url: ''
     codefont:
-      fontfamily: 'Menlo, UbuntuMono, Monaco'
-      # name: 'Monaco'
-      # url: volantis-static/media/fonts/Monaco/Monaco.ttf # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/Monaco/Monaco.ttf
-      # weight: normal
-      # style: normal
+      fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
+      url: ''
+
+  color_scheme:
+  common:
+    selection: '#ddf4ff'
+  light:
+    site_bg: '#f7f9fe'
+    meta: '#666'
+    site_footer: '#fff'
+  dark:
+    site_bg: '#21252b'
+    site_footer: '#abb2bf'
+    card: '#282c34'
+    text: '#abb2bf'
+    block: '#21252b'
+    h1: '#979fa-duotone'
+    h2: '#979fa-duotone'
+    h3: '#979fa-duotone'
+    h4: '#979fa-duotone'
+    h5: '#979fa-duotone'
+    h6: '#979fa-duotone'
+    p: '#abb2bf'
 ############################### Custom css ############################### > end
 
 

@@ -1,8 +1,32 @@
 ---
 title: {{ title }}
+author: 作者
 date: {{ date }}
-tags: default
-categories: default
-type: categories
-description: 你对本页的描述
+updated: {{ date }}
+## 基本设置
+tags: 标签
+categories: 分类
+description: 这是摘要
+## 置顶设置
+sticky:
+top: false
+pin: false
+## 文章头图设置
+index_img: 
+banner_img: 
+headimg:
+img:
+cover:
+## 相关开关
+comments: true
+# mermaid: false
+# mathjax: false
+# math: false
+# hide: false
+## Aplayer播放器设置
+music:
+  server: netease
+  type: song
+  id: 31134461
 ---
+

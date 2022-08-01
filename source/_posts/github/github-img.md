@@ -12,6 +12,10 @@ description: 建立图床必须具备什么条件
   - PicGo 上传图片
   - Typora 上传图片
 date: 2022-07-29 17:26:52
+music:
+  server: netease
+  type: song
+  id: 31134463
 ---
 建立图床必须具备什么条件 
 

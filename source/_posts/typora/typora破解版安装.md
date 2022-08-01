@@ -7,6 +7,10 @@ categories: typora
 type: categories
 description: typora破解版安装
 date: 2022-07-30 23:56:45
+music:
+  server: netease
+  type: song
+  id: 31134460
 ---
 
 typora收费，对程序猿来说是不可能的，我只会白嫖，今天在小破站看到一个破解版的typora的安装，分享给大家。

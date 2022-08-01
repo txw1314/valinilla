@@ -4,6 +4,10 @@ date: 2022-07-28 20:18:46
 tags: fariy
 categories: 壁纸
 type: categories
+music:
+  server: netease
+  type: song
+  id: 31134456
 ---
 # 精美壁纸
 

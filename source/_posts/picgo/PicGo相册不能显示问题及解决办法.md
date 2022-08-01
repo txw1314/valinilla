@@ -5,6 +5,10 @@ categories: PicGo
 type: categories
 description: PicGo相册不能显示问题及解决办法
 date: 2022-07-30 22:30:02
+music:
+  server: netease
+  type: song
+  id: 31134464
 ---
 
 我的PicGo图片上传成功了，但是相册区域图片不能正常显示，如下图所示
