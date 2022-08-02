@@ -4,6 +4,12 @@ date: 2022-07-28 15:30:26
 tags: 个人
 categories: 个人学习
 type: categories
+## 文章头图设置
+index_img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/douyin/202208021016095.jpg
+banner_img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/douyin/202208021016095.jpg
+headimg: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/douyin/202208021016095.jpg
+img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/douyin/202208021016095.jpg
+cover: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/douyin/202208021016095.jpg
 music:
   server: netease
   type: song

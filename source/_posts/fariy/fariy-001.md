@@ -4,10 +4,16 @@ date: 2022-07-28 20:18:46
 tags: fariy
 categories: 壁纸
 type: categories
+## 文章头图设置
+index_img: https://img2.baidu.com/it/u=4041237652,3455375873&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+banner_img: https://img2.baidu.com/it/u=4041237652,3455375873&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+headimg: https://img2.baidu.com/it/u=4041237652,3455375873&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+img: https://img2.baidu.com/it/u=4041237652,3455375873&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+cover: https://img2.baidu.com/it/u=4041237652,3455375873&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
 music:
   server: netease
   type: song
-  id: 31134456
+  id: 557581284
 ---
 # 精美壁纸
 
@@ -47,4 +53,3 @@ music:
 
 ![2022](https://img1.baidu.com/it/u=4094397582,1558263522&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500)
 
-![2022](https://mmbiz.qpic.cn/mmbiz_jpg/TF0LhBDVCfDpcE719pqqickaCX4VwT0usW4PZGYgf43iawIsQ6wGKnSPqP3gQnkTSTkWzp08y0yDcJJWubicMV9SQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)

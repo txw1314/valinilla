@@ -5,10 +5,16 @@ categories: github
 description: github克隆项目失败,大概意思是：Fisheye/Crucible服务器不能识别git的SSL证书，所以操作停止执行,解决方法是...
 type: categories
 date: 2022-07-29 19:00:25
-music:
+## 文章头图设置
+index_img: https://img2.baidu.com/it/u=1830973642,518401107&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+banner_img: https://img2.baidu.com/it/u=1830973642,518401107&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+headimg: https://img2.baidu.com/it/u=1830973642,518401107&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+img: https://img2.baidu.com/it/u=1830973642,518401107&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+cover: https://img2.baidu.com/it/u=1830973642,518401107&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+music: 
   server: netease
   type: song
-  id: 31134465
+  id: 557581095
 ---
 
 ## unable to access 'https://github.com/用户名/仓库名.git/': SSL certificate problem: self问题解决

@@ -12,10 +12,16 @@ description: 建立图床必须具备什么条件
   - PicGo 上传图片
   - Typora 上传图片
 date: 2022-07-29 17:26:52
+## 文章头图设置
+index_img: hhttps://img2.baidu.com/it/u=3912953751,2897910146&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+banner_img: hhttps://img2.baidu.com/it/u=3912953751,2897910146&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+headimg: hhttps://img2.baidu.com/it/u=3912953751,2897910146&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+img: hhttps://img2.baidu.com/it/u=3912953751,2897910146&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+cover: hhttps://img2.baidu.com/it/u=3912953751,2897910146&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
 music:
   server: netease
   type: song
-  id: 31134463
+  id: 27599319
 ---
 建立图床必须具备什么条件 
 

@@ -3,14 +3,20 @@ title: hexo之评论系统——giscus
 tags: 
   - 评论系统
   - giscus
-categories: hexo
+categories: Hexo系列
 type: categories
 description: hexo之评论系统——giscus
 date: 2022-07-31 01:08:28
+# 文章头图设置
+index_img: https://img1.baidu.com/it/u=2688422801,1696196797&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+banner_img: https://img1.baidu.com/it/u=2688422801,1696196797&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+headimg: https://img1.baidu.com/it/u=2688422801,1696196797&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+img: https://img1.baidu.com/it/u=2688422801,1696196797&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+cover: https://img1.baidu.com/it/u=2688422801,1696196797&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
 music:
   server: netease
   type: song
-  id: 31134467
+  id: 1330348068
 ---
 本篇主要讲的是hexo主题volantis的评论系统相关的giscus
 # 一、评论系统的选择giscus

@@ -4,7 +4,7 @@ author: 作者
 tags: 
   - busuanzi
   - 站点统计
-categories: 站点统计
+categories: Hexo系列
 description: 站点信息之busuanzi，及其相关配置信息的获取
 top: false
 pin: false
@@ -12,15 +12,16 @@ comments: true
 music:
   server: netease
   type: song
-  id: 31134468
+  id: 1396930668
 date: 2022-08-01 22:32:56
 updated: 2022-08-01 22:32:56
 sticky:
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+## 文章头图设置
+index_img: https://img0.baidu.com/it/u=3440708810,3442918705&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+banner_img: https://img0.baidu.com/it/u=3440708810,3442918705&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+headimg: https://img0.baidu.com/it/u=3440708810,3442918705&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+img: https://img0.baidu.com/it/u=3440708810,3442918705&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
+cover: https://img0.baidu.com/it/u=3440708810,3442918705&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500
 ---
 本片介绍的是站点信息统计之busuanzi
 # 一、站点信息

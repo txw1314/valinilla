@@ -7,10 +7,6 @@ updated: {{ date }}
 tags: 标签
 categories: 分类
 description: 这是摘要
-## 置顶设置
-sticky:
-top: false
-pin: false
 ## 文章头图设置
 index_img: 
 banner_img: 
@@ -23,10 +19,14 @@ comments: true
 # mathjax: false
 # math: false
 # hide: false
+## 置顶设置
+sticky:
+top: false
+pin: false
 ## Aplayer播放器设置
 music:
   server: netease
   type: song
-  id: 31134461
+  id: 1916550868
 ---
 

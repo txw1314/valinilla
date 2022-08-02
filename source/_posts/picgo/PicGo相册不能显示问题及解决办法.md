@@ -8,7 +8,13 @@ date: 2022-07-30 22:30:02
 music:
   server: netease
   type: song
-  id: 31134464
+  id: 1953129816
+## 文章头图设置
+index_img: https://img1.baidu.com/it/u=872134080,2905781283&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+banner_img: https://img1.baidu.com/it/u=872134080,2905781283&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+headimg: https://img1.baidu.com/it/u=872134080,2905781283&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+img: https://img1.baidu.com/it/u=872134080,2905781283&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
+cover: https://img1.baidu.com/it/u=872134080,2905781283&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500
 ---
 
 我的PicGo图片上传成功了，但是相册区域图片不能正常显示，如下图所示
