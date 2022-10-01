@@ -147,7 +147,8 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/txw1314/txw1314.github.io.git
+  repo: git@github.com:txw1314/txw1314.github.io.git
+  # repo: https://github.com/txw1314/txw1314.github.io.git
   branch: master
 
 # Volantis

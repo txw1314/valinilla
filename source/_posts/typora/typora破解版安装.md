@@ -1,9 +1,9 @@
 ---
 title: typora破解版安装
-tags: 
+tags:  typora
+categories: 
+  - 破解
   - typora
-  - 破解版
-categories: typora
 type: categories
 description: typora破解版安装
 date: 2022-07-30 23:56:45

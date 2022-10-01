@@ -1,6 +1,5 @@
 ---
 title: PicGo+typora上传图片失败报422的原因及解决方法
-author: vanilla
 tags: PicGo
 categories: PicGo
 description: PicGo+typora上传图片失败报422的原因及解决方法
@@ -13,11 +12,11 @@ music:
   id: 1916550868
 date: 2022-08-03 17:31:35
 updated: 2022-08-03 17:31:35
-index_img: https://raw.githubusercontent.com/txw1314/blog-img/main/img/202208021030428.jpg
-banner_img: https://raw.githubusercontent.com/txw1314/blog-img/main/img/202208021030428.jpg
-headimg: https://raw.githubusercontent.com/txw1314/blog-img/main/img/202208021030428.jpg
-img: https://raw.githubusercontent.com/txw1314/blog-img/main/img/202208021030428.jpg
-cover: https://raw.githubusercontent.com/txw1314/blog-img/main/img/202208021030428.jpg
+index_img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208021030428.jpg
+banner_img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208021030428.jpg
+headimg: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208021030428.jpg
+img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208021030428.jpg
+cover: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208021030428.jpg
 sticky:
 ---
 

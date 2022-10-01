@@ -306,7 +306,7 @@ article:
 comments:  
   title: <i class='fa-solid fa-comments'></i> 评论
   subtitle:
-  service: twikoo #giscus
+  service: giscus #twikoo 
   # 可选评论系统 # twikoo giscus(实现了，只是嫌弃样式丑陋用了第一个)
 
   # Twikoo 有限使用这个，这个好看呀

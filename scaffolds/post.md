@@ -10,9 +10,9 @@ description: 这是摘要
 ## 文章头图设置
 index_img: 
 banner_img: 
-headimg:
-img:
-cover:
+headimg: 
+img: 
+cover: 
 ## 相关开关
 comments: true
 # mermaid: false
@@ -20,9 +20,9 @@ comments: true
 # math: false
 # hide: false
 ## 置顶设置
-sticky:
-top: false
-pin: false
+# sticky:
+# top: false
+# pin: false
 ## Aplayer播放器设置
 music:
   server: netease
