@@ -1,7 +1,7 @@
 ---
 title: fairy-004
 author: 作者
-tags: 
+tags:
   - 写真
   - 美女
 categories: 写真
@@ -20,13 +20,33 @@ img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/202208/%E5%B2%81%
 cover: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/202208/%E5%B2%81%E5%B2%81%E5%B0%8F%E5%A1%94202208120124258.jpg
 ---
 
+<style>
+    #l_main {
+      width: calc(100% - 1 * 0px);
+      padding-left: 0px;
+      float: left;
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+    #l_side {
+  
+        display: none;
+    }
+    
+    #post-body {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #post-body p {
+        width: 48%;
+        margin: 5px;
+    }
+</style>
+
 # 写真丨我全部的心思和悸动都归你
-
-摄影：NIKOWOO(前四张)
-
-出境：糯米NKk(后四张)
-
-摄影：岁月SOKA
 
 ![](https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/202208/%E5%B2%81%E5%B2%81%E5%B0%8F%E5%A1%94202208120124258.jpg)
 

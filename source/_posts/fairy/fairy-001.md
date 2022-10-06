@@ -15,7 +15,35 @@ music:
   type: song
   id: 557581284
 ---
-# 精美壁纸
+
+<style>
+    #l_main {
+
+      width: calc(100% - 1 * 0px);
+      padding-left: 0px;
+      float: left;
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+    #l_side {
+      
+        display: none;
+    }
+    
+    #post-body {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #post-body p {
+        width: 48%;
+        margin: 5px;
+    }
+</style>
+
+# 壁纸
 
 ![太空人](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2F4k%2Fs%2F01%2F210924143942AV-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661603132&t=1f048fc0b2d6b6052d8fa10a0c0c2a66)
 
@@ -52,4 +80,3 @@ music:
 ![鹤](https://img2.baidu.com/it/u=2899977724,4160359019&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500)
 
 ![2022](https://img1.baidu.com/it/u=4094397582,1558263522&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500)
-

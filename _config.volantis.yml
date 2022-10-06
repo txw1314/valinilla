@@ -77,7 +77,7 @@ scroll_smooth: true
 ############################### Navigation Bar ############################### > start
 # 注意事项：建议规范全站路径 URL 末尾带一个 "/" 例如 "about/"
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img: # volantis-static/media/org.volantis/blog/Logo-NavBar@3x.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
     icon: 
@@ -95,12 +95,15 @@ navbar:
     - name: 标签
       icon: fa-solid fa-tags
       url: tags/
-    - name: 友链
-      icon: fa-solid fa-link
-      url: friends/
+    - name: 相册
+      icon: fa-solid fa-camera-retro
+      url: gallery/
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
+    - name: 暗黑模式 # 可自定义
+      icon: fas fa-moon # 可自定义
+      toggle: darkmode
   search: Search   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
@@ -139,7 +142,7 @@ cover:
     - name: 源码
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f9ec.svg 
-      url: https://github.com/volantis-x/hexo-theme-volantis/
+      url: https://github.com/txw1314/valinilla
 ############################### Cover ############################### > end
 
 pages:
@@ -287,18 +290,7 @@ article:
       # 文章标签
       tags:
         icon: fa-solid fa-hashtag
-      # 分享
-      share:
-        - id: qq
-          img:  volantis-static/media/org.volantis/logo/128/qq.png 
-        - id: qzone
-          img: volantis-static/media/org.volantis/logo/128/qzone.png 
-        - id: weibo
-          img: volantis-static/media/org.volantis/logo/128/weibo.png 
-        - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-          img: # volantis-static/media/org.volantis/logo/128/wechat.png 
-        - id: # telegram
-          img: # volantis-static/media/org.volantis/logo/128/telegram.png 
+ 
 ############################### Article Layout ############################### > end
 
 
@@ -399,9 +391,9 @@ sidebar:
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fa-solid fa-envelope
-          url: 1025803781@qq.com
+          url: mailto:1025803781@qq.com
         - icon: fab fa-github
-          url: https://github.com/volantis-x/
+          url: https://github.com/txw1314/valinilla
         - icon: fab fa-weibo
           url: https://weibo.com/
         - icon: fab fa-bilibili

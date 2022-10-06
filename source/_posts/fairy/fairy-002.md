@@ -1,7 +1,7 @@
 ---
 title: fairy-002
 author: 作者
-tags: 
+tags:
   - 写真
   - 美女
 categories: 写真
@@ -18,11 +18,39 @@ banner_img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/2022/08122
 headimg: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/2022/0812202208120107200.jpg
 img: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/2022/0812202208120107200.jpg
 cover: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/2022/0812202208120107200.jpg
+
 ---
 
-# 写真丨这一生 为你谱写最美的篇章
+  <style>
+ #l_main {
 
-摄影：春树摄影
+
+    
+      width: calc(100% - 1 * 0px);
+      padding-left: 0px;
+      float: left;
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+    #l_side {
+        display: none;
+    }
+    
+    #post-body {
+        display:flex;
+        flex-wrap: wrap;
+    }
+    #post-body p {
+        width: 48%;
+        margin: 5px;
+    }
+
+</style>
+
+# 写真丨这一生 为你谱写最美的篇章
 
 ![](https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/fairy/2022/0812202208120107198.jpg)
 

@@ -7,17 +7,17 @@
 # 网站标题(必填)
 title: VanillaYiYi
 # 副标题(在某些主题不生效)
-subtitle: ''
+subtitle: ""
 # 网站描述(建议填写，优化SEO)
 description: 希望在这里分享我的经验与生活！
-# 网站的关键字(选填，优化SEO) 
+# 网站的关键字(选填，优化SEO)
 keywords: VanillaYiYi,博客,分享
 # 网站作者(必填)
 author: VanillaYiYi
 # 网站使用的语言(取决于你主题目录下的语言文件)
 language: zh-CN
 # 网站对应的时区(无需设置)
-timezone: ''
+timezone: ""
 
 # URL
 # 网址
@@ -28,11 +28,11 @@ timezone: ''
 url: http://example.com
 # url: https://txw1314.github.io
 # 文章的永久链接格式(选择性修改)
-permalink: :year/:month/:day/:title/ # posts/:abbrlink/ 
+permalink: :year/:month/:day/:title/ # posts/:abbrlink/
 # (无需修改)
 permalink_defaults:
 pretty_urls:
-  trailing_index: true 
+  trailing_index: true
   trailing_html: true
 
 # Directory
@@ -54,14 +54,14 @@ new_post_name: :title.md
 default_layout: post
 # 将标题转换为首字母大写(无需修改)
 # 影响的是title属性，后续可以通过安装插件实现该功能，所以此处的设置在某些主题不生效
-titlecase: false 
+titlecase: false
 # 是否在新标签页中打开链接(按需修改)
 external_link:
-  enable: true 
+  enable: true
   # 仅仅对post类型的文章生效
-  field: site 
+  field: site
   # 排除的域名
-  exclude: ''
+  exclude: ""
   # 文件名称转换 0是不转换 1小写 2大写(无需修改)
 filename_case: 0
 # 是否渲染草稿文件(无需修改)
@@ -80,21 +80,23 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # 主页设置
 index_generator:
-  path: ''
+  path:
+    ""
     # 每页显示的文章数量(按需修改)
-  per_page: 6
+  per_page:
+    6
     # 文章排序方式，默认最新日期在最前面(无需修改)
   order_by: -date
 
@@ -119,11 +121,11 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 # 文章更新时间格式(按需修改)
-# 提供了三个选项 
+# 提供了三个选项
 # mtime: 将文章修改时间作为文章更新时间
 # date: 将文章创建时间作为文章更新时间
 # empty: 没有文章更新时间
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 # 分页
@@ -156,6 +158,5 @@ import:
   head_end:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@2.0/Volantis/Css/roboto.css">
 
-    
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/favicon.ico
