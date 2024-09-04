@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 2061978961
 date: 2022-11-01 09:40:09
 updated: 2022-11-01 09:40:09
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2015/02/17/19/42/panoramic-639860_1280.jpg
+banner_img: https://cdn.pixabay.com/photo/2015/02/17/19/42/panoramic-639860_1280.jpg
+headimg: https://cdn.pixabay.com/photo/2015/02/17/19/42/panoramic-639860_1280.jpg
+img: https://cdn.pixabay.com/photo/2015/02/17/19/42/panoramic-639860_1280.jpg
+cover: https://cdn.pixabay.com/photo/2015/02/17/19/42/panoramic-639860_1280.jpg
 ---
 
 第一步：npm i nanoid

@@ -5,11 +5,11 @@ tags: 个人
 categories: 个人学习
 type: categories
 ## 文章头图设置
-index_img: https://t7.baidu.com/it/u=822605902,2911444928&fm=193&f=GIF
-banner_img: https://t7.baidu.com/it/u=822605902,2911444928&fm=193&f=GIF
-headimg: https://t7.baidu.com/it/u=822605902,2911444928&fm=193&f=GIF
-img: https://t7.baidu.com/it/u=822605902,2911444928&fm=193&f=GIF
-cover: https://t7.baidu.com/it/u=822605902,2911444928&fm=193&f=GIF
+index_img: https://pic.qqans.com/up/2024-6/17182507953924528.jpg
+banner_img: https://pic.qqans.com/up/2024-6/17182507953924528.jpg
+headimg: https://pic.qqans.com/up/2024-6/17182507953924528.jpg
+img: https://pic.qqans.com/up/2024-6/17182507953924528.jpg
+cover: https://pic.qqans.com/up/2024-6/17182507953924528.jpg
 music:
   server: netease
   type: song

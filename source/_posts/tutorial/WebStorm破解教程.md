@@ -12,11 +12,11 @@ music:
   id: 28996036
 date: 2022-08-08 21:40:59
 updated: 2022-08-08 21:40:59
-index_img: https://pic.3gbizhi.com/2020/0904/thumb_1680_0_20200904073240878.jpg
-banner_img: https://pic.3gbizhi.com/2020/0904/thumb_1680_0_20200904073240878.jpg
-headimg: https://pic.3gbizhi.com/2020/0904/thumb_1680_0_20200904073240878.jpg
-img: https://pic.3gbizhi.com/2020/0904/thumb_1680_0_20200904073240878.jpg
-cover: https://pic.3gbizhi.com/2020/0904/thumb_1680_0_20200904073240878.jpg
+index_img: https://pic.qqans.com/up/2024-6/17182507949374846.jpg
+banner_img: https://pic.qqans.com/up/2024-6/17182507949374846.jpg
+headimg: https://pic.qqans.com/up/2024-6/17182507949374846.jpg
+img: https://pic.qqans.com/up/2024-6/17182507949374846.jpg
+cover: https://pic.qqans.com/up/2024-6/17182507949374846.jpg
 ---
 
 # 最新 2021.3 版本 WebStorm 破解教程，WebStorm 破解补丁 ja-netfilter，永久激活 5000 年

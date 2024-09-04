@@ -12,11 +12,11 @@ music:
   id: 1916550868
 date: 2022-08-08 22:26:31
 updated: 2022-08-08 22:26:31
-index_img: https://pic.3gbizhi.com/2019/1120/thumb_1680_0_20191120092758388.jpg
-banner_img: https://pic.3gbizhi.com/2019/1120/thumb_1680_0_20191120092758388.jpg
-headimg: https://pic.3gbizhi.com/2019/1120/thumb_1680_0_20191120092758388.jpg
-img: https://pic.3gbizhi.com/2019/1120/thumb_1680_0_20191120092758388.jpg
-cover: https://pic.3gbizhi.com/2019/1120/thumb_1680_0_20191120092758388.jpg
+index_img: https://pic.qqans.com/up/2024-6/17182507945422514.jpg
+banner_img: https://pic.qqans.com/up/2024-6/17182507945422514.jpg
+headimg: https://pic.qqans.com/up/2024-6/17182507945422514.jpg
+img: https://pic.qqans.com/up/2024-6/17182507945422514.jpg
+cover: https://pic.qqans.com/up/2024-6/17182507945422514.jpg
 ---
 
 本篇文章主要为大家详细地介绍了**PHPmyadmin 安装教程**。

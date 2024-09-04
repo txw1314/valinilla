@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1417120347
 date: 2023-03-07 21:05:02
 updated: 2023-03-07 21:05:02
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2015/09/16/20/23/thuringia-germany-943302_960_720.jpg
+banner_img: https://cdn.pixabay.com/photo/2015/09/16/20/23/thuringia-germany-943302_960_720.jpg
+headimg: https://cdn.pixabay.com/photo/2015/09/16/20/23/thuringia-germany-943302_960_720.jpg
+img: https://cdn.pixabay.com/photo/2015/09/16/20/23/thuringia-germany-943302_960_720.jpg
+cover: https://cdn.pixabay.com/photo/2015/09/16/20/23/thuringia-germany-943302_960_720.jpg
 ---
 
 ## 被问到 《vue2 与 vue3 的区别》应该怎么回答

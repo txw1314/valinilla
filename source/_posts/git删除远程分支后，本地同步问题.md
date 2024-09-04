@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 2101129701
 date: 2022-11-01 10:00:18
 updated: 2022-11-01 10:00:18
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2020/07/05/05/12/sunset-5371719_1280.jpg
+banner_img: https://cdn.pixabay.com/photo/2020/07/05/05/12/sunset-5371719_1280.jpg
+headimg: https://cdn.pixabay.com/photo/2020/07/05/05/12/sunset-5371719_1280.jpg
+img: https://cdn.pixabay.com/photo/2020/07/05/05/12/sunset-5371719_1280.jpg
+cover: https://cdn.pixabay.com/photo/2020/07/05/05/12/sunset-5371719_1280.jpg
 ---
 
 项目里不小心把本地分支给提交到了远程，而且名字还起错了，在删除远程分支后，发现

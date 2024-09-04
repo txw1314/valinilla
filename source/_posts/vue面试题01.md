@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1817762859
 date: 2022-11-01 11:11:18
 updated: 2022-11-01 11:11:18
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2013/10/15/13/30/clouds-195991_1280.jpg
+banner_img: https://cdn.pixabay.com/photo/2013/10/15/13/30/clouds-195991_1280.jpg
+headimg: https://cdn.pixabay.com/photo/2013/10/15/13/30/clouds-195991_1280.jpg
+img: https://cdn.pixabay.com/photo/2013/10/15/13/30/clouds-195991_1280.jpg
+cover: https://cdn.pixabay.com/photo/2013/10/15/13/30/clouds-195991_1280.jpg
 ---
 
 为了金三银四的跳槽季做准备，并且我是 `vue` 技术栈的，所以整理了若干个 `vue` 的面试题。

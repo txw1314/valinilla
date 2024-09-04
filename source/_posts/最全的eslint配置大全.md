@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1405225333
 date: 2022-11-01 10:25:08
 updated: 2022-11-01 10:25:08
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2020/04/25/07/17/waterfalls-5089714_960_720.jpg
+banner_img: https://cdn.pixabay.com/photo/2020/04/25/07/17/waterfalls-5089714_960_720.jpg
+headimg: https://cdn.pixabay.com/photo/2020/04/25/07/17/waterfalls-5089714_960_720.jpg
+img: https://cdn.pixabay.com/photo/2020/04/25/07/17/waterfalls-5089714_960_720.jpg
+cover: https://cdn.pixabay.com/photo/2020/04/25/07/17/waterfalls-5089714_960_720.jpg
 ---
 
 ### 最全的[eslint](https://so.csdn.net/so/search?q=eslint&spm=1001.2101.3001.7020)配置大全，我已经加了详细中文注释，只需要找到自己想要的配置就可以了，强烈建议收藏！

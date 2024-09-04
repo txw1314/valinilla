@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1456890009
 date: 2022-11-01 10:17:36
 updated: 2022-11-01 10:17:36
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2020/05/10/18/54/new-york-5155189_960_720.jpg
+banner_img: https://cdn.pixabay.com/photo/2020/05/10/18/54/new-york-5155189_960_720.jpg
+headimg: https://cdn.pixabay.com/photo/2020/05/10/18/54/new-york-5155189_960_720.jpg
+img: https://cdn.pixabay.com/photo/2020/05/10/18/54/new-york-5155189_960_720.jpg
+cover: https://cdn.pixabay.com/photo/2020/05/10/18/54/new-york-5155189_960_720.jpg
 ---
 
 #### 一位用不好包管理器的前端，是一个入门级前端，一个用不好`webpack`的前端，是一个初级前端

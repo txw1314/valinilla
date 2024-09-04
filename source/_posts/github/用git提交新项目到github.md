@@ -12,11 +12,11 @@ music:
   id: 1446837083
 date: 2022-08-11 11:56:55
 updated: 2022-08-11 11:56:55
-index_img: https://pic.3gbizhi.com/2021/1208/thumb_1680_0_20211208022358747.jpg
-banner_img: https://pic.3gbizhi.com/2021/1208/thumb_1680_0_20211208022358747.jpg
-headimg: https://pic.3gbizhi.com/2021/1208/thumb_1680_0_20211208022358747.jpg
-img: https://pic.3gbizhi.com/2021/1208/thumb_1680_0_20211208022358747.jpg
-cover: https://pic.3gbizhi.com/2021/1208/thumb_1680_0_20211208022358747.jpg
+index_img: https://pic.qqans.com/up/2024-6/17182507948305876.jpg
+banner_img: https://pic.qqans.com/up/2024-6/17182507948305876.jpg
+headimg: https://pic.qqans.com/up/2024-6/17182507948305876.jpg
+img: https://pic.qqans.com/up/2024-6/17182507948305876.jpg
+cover: https://pic.qqans.com/up/2024-6/17182507948305876.jpg
 ---
 
 ### 1、（先进入项目文件夹）通过命令 git init 把这个目录变成 git 可以管理的仓库

@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 2101129701
 date: 2022-11-05 13:47:13
 updated: 2022-11-05 13:47:13
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2020/10/25/09/34/pipit-5683656_960_720.jpg
+banner_img: https://cdn.pixabay.com/photo/2020/10/25/09/34/pipit-5683656_960_720.jpg
+headimg: https://cdn.pixabay.com/photo/2020/10/25/09/34/pipit-5683656_960_720.jpg
+img: https://cdn.pixabay.com/photo/2020/10/25/09/34/pipit-5683656_960_720.jpg
+cover: https://cdn.pixabay.com/photo/2020/10/25/09/34/pipit-5683656_960_720.jpg
 ---
 
 ### 使用router-link-active和exact动态切换路由样式

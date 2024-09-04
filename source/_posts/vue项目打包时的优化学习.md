@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1403318151
 date: 2022-11-04 00:14:29
 updated: 2022-11-04 00:14:29
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2017/12/12/21/17/doll-figures-3015495_1280.jpg
+banner_img: https://cdn.pixabay.com/photo/2017/12/12/21/17/doll-figures-3015495_1280.jpg
+headimg: https://cdn.pixabay.com/photo/2017/12/12/21/17/doll-figures-3015495_1280.jpg
+img: https://cdn.pixabay.com/photo/2017/12/12/21/17/doll-figures-3015495_1280.jpg
+cover: https://cdn.pixabay.com/photo/2017/12/12/21/17/doll-figures-3015495_1280.jpg
 ---
 
 ### 1.项目优化

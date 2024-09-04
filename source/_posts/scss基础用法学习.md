@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 1824045033
 date: 2022-11-01 10:26:49
 updated: 2022-11-01 10:26:49
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2023/06/25/19/03/grasses-8088021_1280.jpg
+banner_img: https://cdn.pixabay.com/photo/2023/06/25/19/03/grasses-8088021_1280.jpg
+headimg: https://cdn.pixabay.com/photo/2023/06/25/19/03/grasses-8088021_1280.jpg
+img: https://cdn.pixabay.com/photo/2023/06/25/19/03/grasses-8088021_1280.jpg
+cover: https://cdn.pixabay.com/photo/2023/06/25/19/03/grasses-8088021_1280.jpg
 ---
 
 ### SCSS 教程，基础，日常用法

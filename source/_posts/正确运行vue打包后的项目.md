@@ -14,11 +14,11 @@ music:
   id: 1916550868
 date: 2022-08-08 22:54:51
 updated: 2022-08-08 22:54:51
-index_img: https://pic.3gbizhi.com/2021/1228/thumb_1680_0_20211228074310530.jpg
-banner_img: https://pic.3gbizhi.com/2021/1228/thumb_1680_0_20211228074310530.jpg
-headimg: https://pic.3gbizhi.com/2021/1228/thumb_1680_0_20211228074310530.jpg
-img: https://pic.3gbizhi.com/2021/1228/thumb_1680_0_20211228074310530.jpg
-cover: https://pic.3gbizhi.com/2021/1228/thumb_1680_0_20211228074310530.jpg
+index_img: https://pic.qqans.com/up/2024-6/17182507949401213.jpg
+banner_img: https://pic.qqans.com/up/2024-6/17182507949401213.jpg
+headimg: https://pic.qqans.com/up/2024-6/17182507949401213.jpg
+img: https://pic.qqans.com/up/2024-6/17182507949401213.jpg
+cover: https://pic.qqans.com/up/2024-6/17182507949401213.jpg
 ---
 
 这篇文章给大家分享的是有关怎么使用 webpack 打包后的 vue 项目正确运行的内容。小编觉得挺实用的，因此分享给大家做个参考，一起跟随小编过来看看吧。

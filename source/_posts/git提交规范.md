@@ -8,14 +8,14 @@ comments: true
 music:
   server: netease
   type: song
-  id: 1916550868
+  id: 2099332533
 date: 2022-11-02 02:07:11
 updated: 2022-11-02 02:07:11
-index_img:
-banner_img:
-headimg:
-img:
-cover:
+index_img: https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg
+banner_img: https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg
+headimg: https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg
+img: https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg
+cover: https://cdn.pixabay.com/photo/2020/05/20/06/47/mountain-5195052_960_720.jpg
 ---
 
 ### 1.windows 全局安装commitizennode模块

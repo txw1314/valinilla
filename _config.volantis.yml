@@ -7,7 +7,8 @@ info:
 debug: false
 ############################### 默认占位图 ###############################
 default:
-  avatar: volantis-static/media/placeholder/avatar/round/3442075.svg 
+  # avatar: volantis-static/media/placeholder/avatar/round/3442075.svg 
+  avatar: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208071634006.png
   link: volantis-static/media/placeholder/link/8f277b4ee0ecd.svg 
   cover: volantis-static/media/placeholder/cover/76b86c0226ffd.svg 
   image: volantis-static/media/placeholder/image/2659360.svg 
@@ -255,7 +256,8 @@ article:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
-        avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg  # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
+        avatar: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208071634006.png 
+        # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
         name: VanillaYiYi
         url: /
       # 文章创建日期
@@ -382,7 +384,8 @@ sidebar:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
       # 头像
-      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg 
+      avatar: https://gcore.jsdelivr.net/gh/txw1314/blog-img@main/img/202208071634006.png
+      # avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg 
       # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
       shape: circle # circle, rectangle
       url: / # 点击头像默认首页
