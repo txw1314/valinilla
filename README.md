@@ -2,7 +2,10 @@
 
 克隆仓库代码
 ```
+//开启加速器使用这个可以拉取代码
 git clone https://github.com/txw1314/valinilla.git
+//关闭加速器使用下面这个可以拉取代码
+git clone git@github.com:txw1314/valinilla.git
 ```
 
 ### 安装依赖
